@@ -1,6 +1,44 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Root Styles */
+:root {
+  /* Colors */
+  --clr-primary-dark-blue: hsl(233, 26%, 24%);
+  --clr-primary-lime-green: hsl(136, 65%, 51%);
+  --clr-primary-bright-cyan: hsl(192, 70%, 51%);
+
+  --gradient-lime-to-cyan: linear-gradient(to right, var(--clr-primary-lime-green), var(--clr-primary-bright-cyan));
+
+
+  --clr-neutral-grayish-blue: hsl(233, 8%, 62%);
+  --clr-neutral-light-grayish-blue: hsl(220, 16%, 96%);
+  --clr-neutral-very-light-gray: hsl(0, 0%, 98%);
+  --clr-neutral-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-body-size: 18px;
+  --font-family: 'Public Sans', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Layout */
+  --container-max-width: 1440px;
+  --container-padding: 1.5rem;
+}
+
+/* Global Styles */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-body-size);
+  font-weight: var(--font-weight-regular);
+  color: var(--clr-primary-dark-blue);
+  background-color: var(--clr-neutral-white);
+  line-height: 1.6;
+  padding-inline: 9rem;
+}
+
+/* Responsive Typography */
+@media (max-width: 375px) {
+  body {
+    font-size: 16px; /* Adjust for smaller screens */
+  }
 }

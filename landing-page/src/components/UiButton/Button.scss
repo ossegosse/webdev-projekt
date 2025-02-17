@@ -1,0 +1,12 @@
+.ui-button {
+    background: var(--gradient-lime-to-cyan);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+        background: linear-gradient(to right, hsla(136, 65%, 51%, 0.5), hsla(192, 70%, 51%, 0.5));
+    }
+}

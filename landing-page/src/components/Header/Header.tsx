@@ -1,10 +1,13 @@
 import "./Header.scss"
-
+import { Nav } from "../Nav/Nav"
+import { UiButton } from "../UiButton/Button"
 
 export const Header = () => { 
     return (
-        <header>
-            <img src="landing-page/src/assets/logo.svg" alt="" />
+        <header className="header">
+            <img src="logo.svg" alt="logo" className="logo" />
+            <Nav />
+            <UiButton />
         </header>
     )
 }
