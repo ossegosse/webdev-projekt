@@ -1,4 +1,4 @@
-
+import { Header } from './components/Header/Header'
 import './App.scss'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-
+      <Header />
     </div>
       
   )
