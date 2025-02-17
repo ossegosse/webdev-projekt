@@ -1,0 +1,40 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color: var(--clr-neutral-white);
+    overflow: hidden;
+    .hero-section {
+        width: 50%;
+        .hero__title {
+            font-size: 4em;
+            margin-block: 1rem;
+        }
+        .hero__description {
+            margin-block: 1.5rem;
+        }
+    }
+
+    .hero__img__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       position: relative;
+       width: 50%;
+        .hero__image {
+            width: 120%;
+            bottom: 10rem;
+            z-index: 1;
+        }
+        .hero__mockups {
+            width: 100%;
+            position: absolute;
+            z-index: 2;
+            left: 10rem;
+        }
+    }
+  
+}
+

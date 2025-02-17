@@ -1,0 +1,20 @@
+.info__page__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--clr-neutral-very-light-gray);
+    .info__section {
+        width: 50%;
+        .info__page__title {
+            margin-block: 1rem;
+            font-size: 1.5em;
+            color: var(--clr-primary-dark-blue);
+        }
+        .info__page__description {
+            font-size: 1em;
+            color: var(--clr-neutral-grayish-blue);
+        }
+    }
+       
+    }

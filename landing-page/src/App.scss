@@ -28,12 +28,24 @@
 /* Global Styles */
 body {
   font-family: var(--font-family);
-  font-size: var(--font-body-size);
+  
+  /* padding-inline: 9rem; */
+}
+
+main {
+  margin-inline: 9rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-regular);
   color: var(--clr-primary-dark-blue);
-  background-color: var(--clr-neutral-white);
+}
+
+p {
+  font-weight: var(--font-weight-light);
+  color: var(--clr-neutral-grayish-blue);
   line-height: 1.6;
-  padding-inline: 9rem;
+  font-size: var(--font-body-size);
 }
 
 /* Responsive Typography */

@@ -1,0 +1,26 @@
+.info-card-container {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding-block: 5rem;
+    .info-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 16rem;
+        gap: 1rem;
+        border-radius: 10px;
+        .info-card__icon {
+            width: 4rem;
+            color: var(--clr-primary-lime-green);
+        }
+        .info-card__title {
+            font-size: 1.5em;
+            color: var(--clr-primary-dark-blue);
+        }
+        .info-card__description {
+            font-size: 1em;
+            color: var(--clr-neutral-grayish-blue);
+        }
+    }
+}
