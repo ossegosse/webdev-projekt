@@ -4,6 +4,9 @@
     flex-direction: column;
     min-height: 100vh;
     background-color: var(--clr-neutral-very-light-gray);
+    padding-inline: 9rem;
+    z-index: 1;
+    position: relative;
     .info__section {
         width: 50%;
         .info__page__title {

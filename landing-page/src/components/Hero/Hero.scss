@@ -3,11 +3,11 @@
     justify-content: space-between;
     align-items: center;
     height: 90vh;
-    width: 100%;
     background-color: var(--clr-neutral-white);
-    overflow: hidden;
+    padding-left: 9rem;
     .hero-section {
-        width: 50%;
+        width: 40%;
+        margin-right: 2rem;
         .hero__title {
             font-size: 4em;
             margin-block: 1rem;
@@ -21,8 +21,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-       position: relative;
-       width: 50%;
+         position: relative;
+         width: 50%;
         .hero__image {
             width: 120%;
             bottom: 10rem;
@@ -32,7 +32,8 @@
             width: 100%;
             position: absolute;
             z-index: 2;
-            left: 10rem;
+            left: 7rem;
+            
         }
     }
   
