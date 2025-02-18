@@ -1,0 +1,13 @@
+.blog__page__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-inline: 9rem;
+    padding-block: 5rem;
+    gap: 3rem;
+    background-color: var(--clr-neutral-very-light-gray);
+    .blog-title {
+        font-size: 2em;
+       
+    }
+}

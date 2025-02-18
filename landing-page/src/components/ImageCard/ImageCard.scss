@@ -1,0 +1,41 @@
+.imagecard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .image-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-neutral-white);
+    max-width: 17rem;
+    min-height: 60%;
+    .image {
+      width: 100%; 
+      height: auto; 
+      min-height: 200px;
+      border-radius: 3px;
+      object-fit: cover; 
+      aspect-ratio: 16/9;
+    }
+    .blog__container {
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+      gap: 0.3rem;
+      padding: 1.5rem;
+      .author {
+        margin-top: 1rem;
+        font-size: 0.6em;
+      }
+      .title {
+        margin-top: 0.5rem;
+      }
+      .description {
+        margin-top: 0.5rem;
+        font-size: 0.8em;
+      }
+    }
+  }
+}

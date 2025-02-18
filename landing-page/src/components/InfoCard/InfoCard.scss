@@ -3,12 +3,13 @@
    justify-content: space-between;
     align-items: center;
     padding-block: 5rem;
+    flex-wrap: wrap;
     .info-card {
         display: flex;
         flex-direction: column;
         width: 100%;
         max-width: 16rem;
-        gap: 1rem;
+        gap: 2rem;
         border-radius: 10px;
         .info-card__icon {
             width: 4rem;
