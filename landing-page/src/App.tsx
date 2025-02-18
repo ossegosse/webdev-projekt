@@ -3,6 +3,7 @@ import './App.scss'
 import { Hero } from './components/Hero/Hero'
 import { InfoPage } from './components/InfoPage/InfoPage'
 import { BlogPage } from './components/BlogPage/BlogPage'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <InfoPage />
       <BlogPage />
       </main>
+      <Footer />
     </div>
       
   )
